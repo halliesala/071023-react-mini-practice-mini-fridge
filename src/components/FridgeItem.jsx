@@ -1,10 +1,13 @@
-function FridgeItem() {
+function FridgeItem({ item, toggleExpired }) {
 
   return (
     <div className="fridge-item">
-      <h2>{/* Name goes here */}</h2>
-      <p>{/* Description goes here */}</p>
-      <p>{/* "Expired" or "Still Good" */}</p>
+      <h2>{item.name}</h2>
+      <p>{item.description}</p>
+      <p onClick={() => {
+          console.log("Toggling expiration");
+          toggleExpired(item)}
+        }>{item.is_expired ? "Expired" : "Still Good"}</p>
     </div>
   )
 }
