@@ -15,3 +15,7 @@ You'll be fetching from `http://localhost:3005/items` for this practice.
 2. Map through and render each item in the `FridgeList` component. Each item should be a `FridgeItem`.
 
 3. If an item is expired, the p tag ought to say "Expired". Otherwise the p tag should say "Still Good".
+
+4. *BONUS:* When someone clicks on the `Expired` / `Still Good` text it toggles between the two.
+
+5. *EXTRA BONUS:* When toggling between `Expired` and `Still Good` a patch request is sent to change the item in the database.
