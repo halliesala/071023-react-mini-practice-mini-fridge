@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Soda",
+      "description": "Two month old soda from that time you hosted someone's birthday party.",
+      "is_expired": false
+    }
+    {
+      "id": 2,
+      "name": "Bread",
+      "description": "Wait why is there bread in the fridge? Well at least it's fresh.",
+      "is_expired": false
+    }
+    {
+      "id": 3,
+      "name": "Yogurt",
+      "description": "A confirmed probiotic.",
+      "is_expired": false
+    }
+    {
+      "id": 4,
+      "name": "Cheese",
+      "description": "Does the blue mold on this mean it's cultured?",
+      "is_expired": true
+    }
+    {
+      "id": 5,
+      "name": "Energy Drink",
+      "description": "You've only just now realized Monstera Energy is meant for plants and says 'Not For Human Consumption'.",
+      "is_expired": false
+    }
+    {
+      "id": 6,
+      "name": "Ramen Noodles",
+      "description": "Leftovers from last week. There is a 33.333% chance you'll ever touch this again.",
+      "is_expired": true
+    }
+  ]
+}
